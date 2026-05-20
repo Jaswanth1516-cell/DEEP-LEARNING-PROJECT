@@ -1,0 +1,37 @@
+# Deep Learning Image Classification Project
+# Requirements for Google Colab and Local Environment
+
+# Core Deep Learning Framework
+tensorflow>=2.10.0
+tensorflow-datasets>=4.8.0
+
+# Scientific Computing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Data Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Machine Learning Utilities
+scikit-learn>=1.0.0
+
+# Optional: Advanced Visualizations
+plotly>=5.0.0
+
+# Optional: For model deployment
+flask>=2.0.0
+flask-cors>=3.0.10
+
+# Optional: For ONNX export
+onnx>=1.12.0
+tf2onnx>=1.10.0
+
+# Development tools
+jupyter>=1.0.0
+ipython>=7.0.0
+
+# Note: For Google Colab
+# TensorFlow and most packages are pre-installed
+# Run: !pip install -r requirements.txt
+# in a Colab cell for any missing packages
